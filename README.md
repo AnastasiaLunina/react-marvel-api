@@ -1,7 +1,7 @@
 # React App fetching data from Marvel API
 
-[See live](https://react-al-marvel-api.netlify.app/)
+[⭐ See live](https://react-al-marvel-api.netlify.app/)
 
-Start app:
-### `npm start`
+Start app: <br>
+`npm start`
 
