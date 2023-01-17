@@ -16,6 +16,7 @@ const ComicsList = () => {
 
     useEffect(() => {
         onRequest(offset, true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const onRequest = (offset, initial) => {
@@ -39,7 +40,7 @@ const ComicsList = () => {
         const items = arr.map((item, i) => {
             return (
                 <li className="comics__item" key={i}>
-                    <a href="#">
+                    <a href="#1">
                         <img src={item.thumbnail} alt={item.title} className="comics__item-img"/>
                         <div className="comics__item-name">{item.title}</div>
                         <div className="comics__item-price">{item.price}</div>
